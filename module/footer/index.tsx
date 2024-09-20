@@ -37,14 +37,14 @@ export default function Footer() {
         <div>
           <h1 className="text-3xl">Important Links</h1>
           <div className="flex flex-col gap-2 mt-3 max-w-max text-gray-400">
-            <Link href={"/"} target="_blank" className="hover:animate-blink hover:text-secondary">
-              Belajar
+            <Link href={"#benefit"} target="_blank" className="hover:animate-blink hover:text-secondary">
+              Benefit
             </Link>
-            <Link href={"/"} target="_blank" className="hover:animate-blink hover:text-secondary">
-              Komunitas
+            <Link href={"#faq"} target="_blank" className="hover:animate-blink hover:text-secondary">
+              Faq
             </Link>
-            <Link href={"/"} target="_blank" className="hover:animate-blink hover:text-secondary">
-              Artikel
+            <Link href={"#materi"} target="_blank" className="hover:animate-blink hover:text-secondary">
+              Materi
             </Link>
           </div>
         </div>
